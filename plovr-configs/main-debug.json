@@ -1,0 +1,7 @@
+{
+  "id": "main-debug",
+  "inherits": "./main.json",
+  "debug": true,
+  "pretty-print": true,
+  "print-input-delimiter": true
+}

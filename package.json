@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf dist",
+    "build": "java -jar plovr/plovr.jar build plovr-configs/main.json",
+    "start": "java -jar plovr/plovr.jar serve plovr-configs/*.json"
   },
   "repository": {
     "type": "git",

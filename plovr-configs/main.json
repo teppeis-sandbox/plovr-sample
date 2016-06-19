@@ -1,0 +1,9 @@
+{
+  "id": "main",
+  "inputs": "../lib/main.js",
+  "paths": "../lib",
+  "mode": "ADVANCED",
+  "level": "VERBOSE",
+  "output-file": "../dist/main.js",
+  "output-charset": "utf-8"
+}
